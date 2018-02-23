@@ -6,15 +6,15 @@
 
 ## Files and Directories
 > **`cmdReader`**
->> `CmdReader.java`: The major file for **`.txt`** commands read in and storing;
->> `ReadInCmd.java`: Read in the commands from **`.txt`** files;
+>> `CmdReader.java`: The major file for **`.txt`** commands read in and storing;<br>
+>> `ReadInCmd.java`: Read in the commands from **`.txt`** files;<br>
 >> `string2DataPacket.java`: Convert the string to standardlize commands.
 
 > **`comPortWriter`**
->> `ContinueWrite.java`: The main file contains the **main** function for all program logic process;
->> `ComPortDataPackage.java`: Define the data packet format for steering motor control;
+>> `ContinueWrite.java`: The main file contains the **main** function for all program logic process;<br>
+>> `ComPortDataPackage.java`: Define the data packet format for steering motor control;<br>
 >> `Tuple.java`: Define the utilities data structure used by this projects.
 
 > **`controlPanel`**
->> `ControlPanel.java`: **A legacy file** currently unused by this project, it is just a simple panel for controling the steering motors;
+>> `ControlPanel.java`: **A legacy file** currently unused by this project, it is just a simple panel for controling the steering motors;<br>
 >> `comPortWriter/ShowUtils.java`: **A legacy file** currently unused by this project.
