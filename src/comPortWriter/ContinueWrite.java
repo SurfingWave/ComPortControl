@@ -12,7 +12,7 @@ import cmdReader.*;
 
 public class ContinueWrite extends Thread implements SerialPortEventListener {
 	
-	public static CommPortIdentifier portId;  // Serial Port management class
+    public static CommPortIdentifier portId;  // Serial Port management class
     public static Enumeration<?> portList;    // Enumeration of available port
     public static boolean cmdReady = false;   //
     public OutputStream outputStream=null;    // outPutStream of a port, default as null
@@ -41,7 +41,7 @@ public class ContinueWrite extends Thread implements SerialPortEventListener {
     }
    
     /*
-     * Open a COM port
+     * Open COM Ports
      */
     public int startComPort() {
         
@@ -58,8 +58,8 @@ public class ContinueWrite extends Thread implements SerialPortEventListener {
                         ShowUtils.portInUseWarning(this.writerId);
                         return 2;
                     } finally {
-                    	System.out.println("Device Type£º--->" + portId.getPortType());
-                        System.out.println("Device Name£º---->" + "COM"+Integer.toString(this.writerId));
+                    	System.out.println("Device TypeÂ£Âº--->" + portId.getPortType());
+                        System.out.println("Device NameÂ£Âº---->" + "COM"+Integer.toString(this.writerId));
 					}
 
                     //Open output stream
@@ -179,12 +179,7 @@ public class ContinueWrite extends Thread implements SerialPortEventListener {
     	PortAssign.add(3);
     	PortAssign.add(4);
     	PortAssign.add(5);
-    	PortAssign.add(6);*/
-    	PortAssign.add(16);
-    	/*PortAssign.add(27);
-    	PortAssign.add(28);
-    	PortAssign.add(29);
-    	
+    	PortAssign.add(6);*/    	
     	
     	/*
     	 * Initialize the COM port instants: ContinueWrite,
