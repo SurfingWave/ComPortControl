@@ -172,8 +172,6 @@ public class ContinueWrite extends Thread implements SerialPortEventListener {
     	Queue<Integer>PortAssign=new LinkedBlockingQueue<Integer>();
     	Queue<Integer>PortStore=new LinkedBlockingQueue<Integer>();
     	
-    	
-    	
     	/*PortAssign.add(1);
     	PortAssign.add(2);
     	PortAssign.add(3);
